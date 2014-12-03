@@ -22,13 +22,13 @@ bootstrap is included here -- though you probably are already loading it in
 your project if you're interested in this app::
 
     <!-- Bootstrap -->
-    <link rel='stylesheet' type='text/css' href='{{ STATIC_URL }}bootstrap-form-horizontal/vendor/bootstrap/css/bootstrap.css' />
-    <script type='text/javascript' src='{{ STATIC_URL }}bootstrap-form-horizontal/vendor/bootstrap/js/bootstrap.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='{{ STATIC_URL }}bootstrap_form_horizontal/vendor/bootstrap/css/bootstrap.css' />
+    <script type='text/javascript' src='{{ STATIC_URL }}bootstrap_form_horizontal/vendor/bootstrap/js/bootstrap.min.js'></script>
 
     <!-- Pikaday -->
-    <link rel='stylesheet' type='text/css' href='{{ STATIC_URL }}bootstrap-form-horizontal/vendor/pikaday/css/pikaday.css' />
-    <script type='text/javascript' src='{{ STATIC_URL }}bootstrap-form-horizontal/vendor/pikaday/pikaday.js'></script>
-    <script type='text/javascript' src='{{ STATIC_URL }}bootstrap-form-horizontal/datewidgets.js'></script>
+    <link rel='stylesheet' type='text/css' href='{{ STATIC_URL }}bootstrap_form_horizontal/vendor/pikaday/css/pikaday.css' />
+    <script type='text/javascript' src='{{ STATIC_URL }}bootstrap_form_horizontal/vendor/pikaday/pikaday.js'></script>
+    <script type='text/javascript' src='{{ STATIC_URL }}bootstrap_form_horizontal/datewidgets.js'></script>
 
 Examples
 --------

@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-bootstrap-form-horizontal',
     version='0.0.1',
-    packages='bootstrap_form_horizontal',
+    packages=['bootstrap_form_horizontal'],
     include_package_data=True,
     license='BSD License',
     description='Templates for bootstrap3 style horizontal forms in Django',

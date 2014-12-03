@@ -12,7 +12,7 @@ setup(
     packages='bootstrap_form_horizontal',
     include_package_data=True,
     license='BSD License',
-    description='Templates for bootstrap3 style horizontal forms',
+    description='Templates for bootstrap3 style horizontal forms in Django',
     long_description=README,
     url="https://github.com/yourcelf/django-bootstrap-form-horizontal",
     author="Charlie DeTar",

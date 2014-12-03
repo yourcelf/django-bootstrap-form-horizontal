@@ -13,7 +13,7 @@ The template accepts the following context:
 
  - ``form``: The form to render.
  - ``submit``: The text for a submit button with class ``btn btn-primary``.  If not specified, no submit button is rendered.
- - ``wrap``: If not 0, will wrap form with ``<form method='post' action='' class='form-horizontal'></form>``. Default: ``True``  If you specify ``wrap=0``, the form will be rendered without wrapping, and you must provide your own ``class='form-horizontal'`` wrapper.
+ - ``wrap``: If not 0, will wrap form with ``<form method='post' action='' class='form-horizontal'>{% csrf_token %} ... </form>``. Default: ``True``  If you specify ``wrap=0``, the form will be rendered without wrapping, and you must provide your own ``class='form-horizontal'`` wrapper.
  - ``label_class``: The grid class(es) to use on label elements. Default: ``col-sm-4``.
  - ``field_class``: The grid class(es) to use on field elements. Default: ``col-sm-8``.
 

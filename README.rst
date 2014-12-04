@@ -5,6 +5,18 @@ This is set of form templates that implement a bootstrap "horizontal" style for
 Django forms.  Handles all default field types, including a nice
 `Pikaday <https://dbushell.github.io/Pikaday/>`_ wrapper for date time fields. 
 
+Installation::
+
+   pip install django-bootstrap-form-horizontal
+
+Add to ``INSTALLED_APPS``::
+
+   INSTALLED_APPS = (
+        ...
+        "bootstrap_form_horizontal",
+        ...
+   )
+
 Usage::
 
     {% include "bootstrap_form_horizontal.html" with form=myform %}

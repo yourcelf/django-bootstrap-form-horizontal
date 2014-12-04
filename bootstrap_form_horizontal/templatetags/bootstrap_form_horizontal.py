@@ -52,3 +52,13 @@ def ampm_for_field(field):
     val = _parse_date(field)
     yield "am", val is not None and val.hour < 12
     yield "pm", val is not None and val.hour >= 12
+
+@register.filter
+def bootstrap_control_field(field):
+    """
+    Add 'form-control' class and placeholder='field.label' to the field.
+    """
+    return field.as_widget(attrs={
+        "class": " ".join(a for a in (field.css_classes(), "form-control") if a),
+        "placeholder": field.label
+    });

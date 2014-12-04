@@ -1,5 +1,5 @@
 {% load firstof from future %}
-{% load widget_tweaks bootstrap_form_horizontal %}
+{% load bootstrap_form_horizontal %}
 {% if field.is_hidden %}
   {{ field }}
   {% if field.errors %}
@@ -54,7 +54,7 @@
             </nobr>
           </div>
         {% else %}
-          {% render_field field class+="form-control" placeholder=field.label %}
+          {{ field|bootstrap_control_field }}
         {% endif %}
       {% endif %}
     </div>

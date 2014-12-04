@@ -1,5 +1,5 @@
 {% load firstof from future %}
-{% if wrap_form != 0 %}
+{% if wrap != 0 %}
 <form class='form-horizontal' method='post' action='{{ action }}' role='form'>{% csrf_token %}
 {% endif %}
   {% include "_bootstrap_form_horizontal_non_field_errors.html" %}
@@ -13,6 +13,6 @@
       </div>
     </div>
   {% endif %}
-{% if wrap_form != 0 %}
+{% if wrap != 0 %}
 </form>
 {% endif %}
